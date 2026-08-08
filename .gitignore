@@ -1,0 +1,21 @@
+﻿# Ignore Visual Studio temporary files, build outputs, and user-specific files
+
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+.packages
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store

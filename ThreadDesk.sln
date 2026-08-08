@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A69700B8-1B83-4DEE-99EC-A2887946B272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadDesk.Agent", "src\ThreadDesk.Agent\ThreadDesk.Agent.csproj", "{F290A664-712C-4623-8605-BAD6D33514DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadDesk.Api", "src\ThreadDesk.Api\ThreadDesk.Api.csproj", "{34115C4F-43F1-4793-8704-A925EB5A5177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadDesk.Core", "src\ThreadDesk.Core\ThreadDesk.Core.csproj", "{9498B166-7303-48CA-866E-3F9DB5A98EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadDesk.Infrastructure", "src\ThreadDesk.Infrastructure\ThreadDesk.Infrastructure.csproj", "{BA8EADF3-E272-4F7F-BC23-98D0D6234DAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadDesk.Tally", "src\ThreadDesk.Tally\ThreadDesk.Tally.csproj", "{7FAB4C1A-EDC3-46FE-B6AC-20ACD6C216A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F290A664-712C-4623-8605-BAD6D33514DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F290A664-712C-4623-8605-BAD6D33514DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F290A664-712C-4623-8605-BAD6D33514DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F290A664-712C-4623-8605-BAD6D33514DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34115C4F-43F1-4793-8704-A925EB5A5177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34115C4F-43F1-4793-8704-A925EB5A5177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34115C4F-43F1-4793-8704-A925EB5A5177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34115C4F-43F1-4793-8704-A925EB5A5177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9498B166-7303-48CA-866E-3F9DB5A98EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9498B166-7303-48CA-866E-3F9DB5A98EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9498B166-7303-48CA-866E-3F9DB5A98EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9498B166-7303-48CA-866E-3F9DB5A98EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8EADF3-E272-4F7F-BC23-98D0D6234DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8EADF3-E272-4F7F-BC23-98D0D6234DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8EADF3-E272-4F7F-BC23-98D0D6234DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8EADF3-E272-4F7F-BC23-98D0D6234DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAB4C1A-EDC3-46FE-B6AC-20ACD6C216A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAB4C1A-EDC3-46FE-B6AC-20ACD6C216A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAB4C1A-EDC3-46FE-B6AC-20ACD6C216A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAB4C1A-EDC3-46FE-B6AC-20ACD6C216A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F290A664-712C-4623-8605-BAD6D33514DF} = {A69700B8-1B83-4DEE-99EC-A2887946B272}
+		{34115C4F-43F1-4793-8704-A925EB5A5177} = {A69700B8-1B83-4DEE-99EC-A2887946B272}
+		{9498B166-7303-48CA-866E-3F9DB5A98EA9} = {A69700B8-1B83-4DEE-99EC-A2887946B272}
+		{BA8EADF3-E272-4F7F-BC23-98D0D6234DAB} = {A69700B8-1B83-4DEE-99EC-A2887946B272}
+		{7FAB4C1A-EDC3-46FE-B6AC-20ACD6C216A9} = {A69700B8-1B83-4DEE-99EC-A2887946B272}
+	EndGlobalSection
+EndGlobal

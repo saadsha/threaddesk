@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.0" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ThreadDesk.Core\ThreadDesk.Core.csproj" />
+    <ProjectReference Include="..\ThreadDesk.Infrastructure\ThreadDesk.Infrastructure.csproj" />
+    <ProjectReference Include="..\ThreadDesk.Api\ThreadDesk.Api.csproj" />
+    <ProjectReference Include="..\ThreadDesk.Tally\ThreadDesk.Tally.csproj" />
+  </ItemGroup>
+</Project>
