@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadDesk.Infrastructure",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadDesk.Tally", "src\ThreadDesk.Tally\ThreadDesk.Tally.csproj", "{7FAB4C1A-EDC3-46FE-B6AC-20ACD6C216A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadDesk.UnitTests", "tests\ThreadDesk.UnitTests\ThreadDesk.UnitTests.csproj", "{0BDF6615-BFF6-473A-BACD-0A4C1173D1BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,6 +46,10 @@ Global
 		{7FAB4C1A-EDC3-46FE-B6AC-20ACD6C216A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FAB4C1A-EDC3-46FE-B6AC-20ACD6C216A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FAB4C1A-EDC3-46FE-B6AC-20ACD6C216A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BDF6615-BFF6-473A-BACD-0A4C1173D1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDF6615-BFF6-473A-BACD-0A4C1173D1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDF6615-BFF6-473A-BACD-0A4C1173D1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDF6615-BFF6-473A-BACD-0A4C1173D1BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F290A664-712C-4623-8605-BAD6D33514DF} = {A69700B8-1B83-4DEE-99EC-A2887946B272}

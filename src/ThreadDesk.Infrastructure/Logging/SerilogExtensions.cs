@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using Serilog;
-
+using Serilog.Sinks.File;
 namespace ThreadDesk.Infrastructure.Logging;
 
 public static class LogConfigurator

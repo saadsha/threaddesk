@@ -6,10 +6,17 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.4.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\\ThreadDesk.Core\\ThreadDesk.Core.csproj" />
-    <ProjectReference Include="..\\ThreadDesk.Tally\\ThreadDesk.Tally.csproj" />
+    <ProjectReference Include="..\\..\\src\\ThreadDesk.Core\\ThreadDesk.Core.csproj" />
+    <ProjectReference Include="..\\..\\src\\ThreadDesk.Tally\\ThreadDesk.Tally.csproj" />
+    <ProjectReference Include="..\\..\\src\\ThreadDesk.Infrastructure\\ThreadDesk.Infrastructure.csproj" />
   </ItemGroup>
 </Project>
